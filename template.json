@@ -1,0 +1,106 @@
+{
+    "Actor":{
+        "types": ["Player","NPC","Vehicle"],
+            "Player": {
+                "Title": "",
+                "Race": "",
+                "Agility": 0,
+                "Toughness": 0,
+                "Awareness": 0,
+                "Will": 0,
+                "Move": 0,
+                "Health": {
+                    "max": 0,
+                    "value": 0
+                },
+                "Initiative": 0,
+                "Spirit": {
+                    "max": 0,
+                    "value": 0
+                },
+                "XP": {
+                    "spent": 0,
+                    "reserve": 0,
+                    "sacrificed": 0
+                },
+                "Armor": 0,
+                "Description": ""
+            },
+            "NPC": {
+                "Agility": 0,
+                "Toughness": 0,
+                "Awareness": 0,
+                "Will": 0,
+                "Move": 0,
+                "Health": {
+                    "max": 0,
+                    "value": 0
+                },
+                "Initiative": 0,
+                "Spirit": {
+                    "max": 0,
+                    "value": 0
+                },
+                "XP": {
+                    "spent": 0,
+                    "reserve": 0,
+                    "sacrificed": 0
+                },
+                "Armor": 0,
+                "Description": ""
+            },
+            "Vehicle": {
+                "Crew": 0,
+                "Passage": 0,
+                "Agility": 0,
+                "Acceleration": 0,
+                "Top_Speed": 0,
+                "Health": {
+                    "max": 0,
+                    "value": 0
+                },
+                "Notes": ""
+            }
+
+    },
+    "Item":{
+        "types": ["Item","Armor","Weapon","Skill","Flaw","Spell"],
+            "Item": {
+                "Weight": 0,
+                "Notes": ""
+            },
+            "Armor": {
+                "Armor": 0,
+                "Weight": 0,
+                "Notes": ""
+            },
+            "Weapon": {
+                "Ammo": 0,
+                "Reload": 0,
+                "Range": 0,
+                "Damage": 0,
+                "Toughness": "",
+                "Area": 0,
+                "Weight": 0,
+                "Notes": ""
+            },
+            "Skill": {
+                "Level": 1,
+                "Description": ""
+            },
+            "Flaw": {
+                "Level": 1,
+                "Description": ""
+            },
+            "Spell": {
+                "Difficulty": 0,
+                "Casting": "",
+                "Range": "",
+                "Duration": "",
+                "Description": ""
+            }
+            
+
+    }
+
+}
